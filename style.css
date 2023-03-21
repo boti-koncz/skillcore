@@ -1,0 +1,80 @@
+div {
+  font-family: Inter;
+  background-image: linear-gradient(
+    to right bottom,
+    #0e1345,
+    #1a1d59,
+    #26276f,
+    #333284,
+    #403d9b
+  );
+}
+
+.center {
+  background-image: linear-gradient(
+    to right bottom,
+    #d7d9f5,
+    #d3d5eb,
+    #cfd1e2,
+    #cbccd8,
+    #c7c8ce
+  );
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1 {
+  /*font-family: Brush Script MT;*/
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  width: 50%;
+}
+
+form {
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  width: 35%;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right bottom,
+    #0e1345,
+    #1a1d59,
+    #26276f,
+    #333284,
+    #403d9b
+  );
+}
+
+button:active {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right bottom,
+    #0c0f33,
+    #0b144b,
+    #0c1863,
+    #131a7c,
+    #1f1b95
+  );
+}
